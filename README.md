@@ -1,40 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Escuela de Equitación Yolanda
 
-## Getting Started
+![Escuela de Equitación Yolanda Logo](public/logo.png)
 
-First, run the development server:
+## Descripción del Proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Sitio web oficial de la Escuela de Equitación Yolanda, una institución dedicada a la enseñanza y práctica de la equitación. Este proyecto está desarrollado con Next.js para ofrecer una experiencia de usuario óptima y un rendimiento excepcional.
+
+## Características
+
+- Presentación de servicios y programas de equitación
+- Galería de imágenes de las instalaciones y eventos
+- Información sobre instructores y personal
+- Formulario de contacto para consultas y reservas
+- Blog con artículos sobre equitación y eventos
+
+## Tecnologías Utilizadas
+
+- [Next.js](https://nextjs.org/) - Framework de React para aplicaciones web
+- [React](https://reactjs.org/) - Biblioteca JavaScript para interfaces de usuario
+- [TypeScript](https://www.typescriptlang.org/) - Superset tipado de JavaScript
+- [CSS Modules](https://github.com/css-modules/css-modules) - Estilos modulares para componentes
+
+## Requisitos Previos
+
+- Node.js (versión 18 o superior)
+- npm (incluido con Node.js)
+
+## Instalación
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/yourusername/escuela-equitacion-yolanda.git
+   cd escuela-equitacion-yolanda
+   ```
+
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Iniciar el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+4. Abrir [http://localhost:3000](http://localhost:3000) en el navegador para ver el resultado.
+
+## Estructura del Proyecto
+
+```
+├── components/       # Componentes React reutilizables
+├── pages/            # Páginas de la aplicación
+│   ├── api/          # Rutas de API
+│   └── ...           # Otras páginas
+├── public/           # Archivos estáticos
+├── styles/           # Archivos CSS y estilos
+├── lib/              # Utilidades y funciones auxiliares
+└── ...               # Otros archivos de configuración
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts Disponibles
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run lint` - Ejecuta el linter para verificar el código
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Despliegue
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages mediante GitHub Actions. Cada vez que se realiza un push a la rama principal, se ejecuta el flujo de trabajo de despliegue definido en `.github/workflows/deploy.yml`.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contribuciones
 
-## Learn More
+Las contribuciones son bienvenidas. Por favor, siga estos pasos para contribuir:
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork del repositorio
+2. Crear una rama para su característica (`git checkout -b feature/amazing-feature`)
+3. Commit de sus cambios (`git commit -m 'Add some amazing feature'`)
+4. Push a la rama (`git push origin feature/amazing-feature`)
+5. Abrir un Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Licencia
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE](LICENSE) para más detalles.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
