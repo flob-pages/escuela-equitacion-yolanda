@@ -42,9 +42,6 @@ jobs:
       - name: Install Next.js globally
         run: npm install -g next
 
-      - name: Install TypeScript
-        run: npm install -g typescript
-
       - name: Build
         run: npm run build
         env:
