@@ -37,10 +37,13 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Install TypeScript dependencies
         run: npm install --save-dev typescript @types/react @types/node
+
+      - name: Install ESLint and Next.js types
+        run: npm install --save-dev eslint eslint-config-next @types/next
 
       - name: Install Next.js globally
         run: npm install -g next
