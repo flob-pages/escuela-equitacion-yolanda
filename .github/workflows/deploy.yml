@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install Next.js globally
+        run: npm install -g next
+
       - name: Build
         run: npm run build
         env:
