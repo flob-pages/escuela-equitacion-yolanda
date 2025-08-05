@@ -8,6 +8,13 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
         
+        {/* Script de GoatCounter para contar visitas */}
+        <script
+          data-goatcounter="https://equitacionsubachoque.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+        />
+        
         <style dangerouslySetInnerHTML={{ __html: `
           :root {
             --primary: #1e553b;
