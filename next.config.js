@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://www.equitacionsubachoque.com' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
   basePath: '',
   images: {
     unoptimized: true,
