@@ -63,20 +63,27 @@ jobs:
           commit-message: 'Deploy: [skip ci] ${{ github.event.head_commit.message }}'
           token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Verify deployment
+      - name: Create .nojekyll file in gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages-branch
+          fetch-depth: 1
+      
+      - name: Verify .nojekyll exists
         run: |
-          echo "Verificando archivos desplegados"
-          git checkout gh-pages
+          echo "Verificando si .nojekyll existe en gh-pages"
+          cd gh-pages-branch
           ls -la
           if [ -f ".nojekyll" ]; then
-            echo ".nojekyll existe en gh-pages"
+            echo ".nojekyll ya existe en gh-pages"
           else
             echo ".nojekyll NO existe en gh-pages"
             echo "Creando .nojekyll manualmente"
             touch .nojekyll
-            git add .nojekyll
             git config --global user.name "GitHub Actions"
             git config --global user.email "actions@github.com"
+            git add .nojekyll
             git commit -m "Add .nojekyll file"
             git push
           fi
