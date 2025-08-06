@@ -1,7 +1,6 @@
 ---
-title: "Próximo Evento Holístico: Yoga y Qi-Gong con Caballos"
+title: "Próximo Evento Holístico: Yoga y Qi-Gong con Caballos (Taller al aire libre)"
 date: "2025-08-23"
 ---
 
-¡Te invitamos a nuestro evento de conexión cuerpo-mente con Yoga y Qi-Gong junto a nuestros caballos! Consultanos...
-
+🔆 Organizan: Escuela de Equitación Yolanda Morales y Unity.Holistic por Daniela Rueda. 🌿 "Respirar con la tierra, sentir con el corazón y conectar con lo esencial." El itinerario será de 8:00 AM a 1:30 PM, y durante esta jornada realizaremos una bienvenida con bebida caliente, una inducción al manejo de caballos, actividades de integración, un taller de Qi-Gong, una práctica de yoga con caballos y finalizaremos con un picnic saludable y nutritivo. 💰 Inversión: $110.000 COP.
