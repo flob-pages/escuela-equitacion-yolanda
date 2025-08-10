@@ -8,34 +8,55 @@ export default function Gallery() {
   const photos = [
     {
       id: 1,
+      src: '/images/gallery/Daniela.jpeg',
+      alt: 'Facilitadora Daniela',
+      title: 'Facilitadora Daniela',
+      description: 'Jinete, Maestra de QI-GONG y creadora de espacios de transformación interior'
+    },
+    {
+      id: 2,
+      src: '/images/gallery/yolanda.jpeg',
+      alt: 'Facilitadora Yolanda',
+      title: 'Facilitadora Yolanda',
+      description: 'Jinete, Rejoneadora y Domadora experta'
+    },
+    {
+      id: 3,
+      src: '/images/gallery/armandoCaballo.jpeg',
+      alt: 'Encillando caballo',
+      title: 'Encillando caballo',
+      description: 'Niños aprendiendo a encillar sus caballos'
+    },
+    {
+      id: 4,
       src: '/images/gallery/horse1.jpeg',
       alt: 'Diversión en grupo',
       title: 'Diversión en grupo',
       description: 'Niños aprendiendo juntos: confianza, juego y trabajo en equipo sobre el caballo.'
     },
     {
-      id: 2,
+      id: 5,
       src: '/images/gallery/horse2.jpeg',
       alt: 'Progreso paso a paso',
       title: 'Progreso paso a paso',
       description: 'Clases uno a uno con acompañamiento personalizado para cada nivel y edad.'
     },
     {
-      id: 3,
+      id: 6,
       src: '/images/gallery/horse3.jpeg',
       alt: 'Amigos a caballo',
       title: 'Amigos a caballo',
       description: 'Montar en compañía es más divertido. Vive la experiencia con hermanos o amigos.'
     },
     {
-      id: 4,
+      id: 7,
       src: '/images/gallery/photo1.JPG',
       alt: 'Primera conexión',
       title: 'Primera conexión',
       description: 'Aprende a acercarte y comunicarte con tu caballo desde el respeto y la confianza.'
     }, 
     {
-      id: 5,
+      id: 8,
       src: '/images/gallery/photo2.JPG',
       alt: 'Nuestros compañeros',
       title: 'Nuestros compañeros',
@@ -49,7 +70,7 @@ export default function Gallery() {
       description: 'Dinámicas y ejercicios divertidos para dominar paso y trote con seguridad.'
     }, 
     {
-      id: 7,
+      id: 9,
       src: '/images/gallery/photo4.jpeg',
       alt: 'Listo para la aventura',
       title: 'Listo para la aventura',
@@ -63,7 +84,7 @@ export default function Gallery() {
       description: 'Contamos con pista cerrada y señalizada para cada nivel de aprendizaje.'
     }, 
     {
-      id: 9,
+      id: 10,
       src: '/images/gallery/photo6.JPG',
       alt: 'Primeros pasos en la silla',
       title: 'Primeros pasos en la silla',
