@@ -95,17 +95,45 @@ export default function Gallery() {
   const videos = [
     {
       id: 1,
-      src: '/videos/caballos1.mp4',
-      poster: '/images/gallery/video-thumb1.jpg',
-      title: 'Clase grupal',
-      description: 'Nuestras clases grupales'
+      src: '/videos/1755977863372.MOV',
+      poster: '/images/gallery/thumbs/video-thumb1.png',
+      title: 'Yoga y Qi-Gong con caballos',
+      description: 'Relajación nivel caballo: estiramientos, respiración y mucha paz en la arena 🧘‍♀️🐴✨'
     },
     {
       id: 2,
+      src: '/videos/1755982239150.MOV',
+      poster: '/images/gallery/thumbs/video-thumb2.png',
+      title: 'Caballos en pasarela',
+      description: 'Nuestros caballos también saben posar… casi como modelos en plena pasarela de naturaleza 🐎🌿📸'
+    },
+    {
+      id: 3,
+      src: '/videos/1755982891046.MOV',
+      poster: '/images/gallery/thumbs/video-thumb3.png',
+      title: 'Clase grupal: equipo en acción',
+      description: 'Trabajo en equipo, risas y caballos listos para aprender… ¡porque juntos todo es mejor! 🐴👫🎯'
+    },
+    {
+      id: 4,
+      src: '/videos/1755983745768.MOV',
+      poster: '/images/gallery/thumbs/video-thumb4.png',
+      title: 'Vista aérea de la finca',
+      description: 'El ojo del dron no miente: pura belleza verde donde los caballos viven felices 🦅🌳🏡'
+    },
+    {
+      id: 5,
+      src: '/videos/caballos1.mp4',
+      poster: '/images/gallery/thumbs/video-thumb5.png',
+      title: 'Clase grupal extendida',
+      description: 'Un día cualquiera en la arena… caballos trotando, jinetes aprendiendo y diversión asegurada 🐴😃🏇'
+    },
+    {
+      id: 5,
       src: '/videos/caballos2.mp4',
-      poster: '/images/gallery/video-thumb2.jpg',
+      poster: '/images/gallery/thumbs/video-thumb6.png',
       title: 'Conectando personas con caballos',
-      description: 'Conectando personas con caballos'
+      description: 'Cuando un caballo se convierte en tu mejor amigo, la magia sucede 💚🐴👨‍👩‍👧‍👦'
     },
   ];
 
